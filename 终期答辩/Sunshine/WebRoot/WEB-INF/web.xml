@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>IndexServlet</servlet-name>
+    <servlet-class>com.sunshine.servlet.IndexServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckUserServlet</servlet-name>
+    <servlet-class>com.sunshine.servlet.CheckUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteUserServlet</servlet-name>
+    <servlet-class>com.sunshine.servlet.DeleteUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowDeleteUserServlet</servlet-name>
+    <servlet-class>com.sunshine.servlet.ShowDeleteUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddUserServlet</servlet-name>
+    <servlet-class>com.sunshine.servlet.AddUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowModifyUserServlet</servlet-name>
+    <servlet-class>com.sunshine.servlet.ShowModifyUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModifyUserServlet</servlet-name>
+    <servlet-class>com.sunshine.servlet.ModifyUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModifyUserInfoServlet</servlet-name>
+    <servlet-class>com.sunshine.servlet.ModifyUserInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddCompanyServlet</servlet-name>
+    <servlet-class>com.sunshine.servlet.AddCompanyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckCompanyServlet</servlet-name>
+    <servlet-class>com.sunshine.servlet.CheckCompanyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowDeleteCompanyServlet</servlet-name>
+    <servlet-class>com.sunshine.servlet.ShowDeleteCompanyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteCompanyServlet</servlet-name>
+    <servlet-class>com.sunshine.servlet.DeleteCompanyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowModifyCompanyServlet</servlet-name>
+    <servlet-class>com.sunshine.servlet.ShowModifyCompanyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModifyCompanyServlet</servlet-name>
+    <servlet-class>com.sunshine.servlet.ModifyCompanyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModifyCompanyInfoServlet</servlet-name>
+    <servlet-class>com.sunshine.servlet.ModifyCompanyInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddProjectServlet</servlet-name>
+    <servlet-class>com.sunshine.servlet.AddProjectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckProjectServlet</servlet-name>
+    <servlet-class>com.sunshine.servlet.CheckProjectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowDeleteProjectServlet</servlet-name>
+    <servlet-class>com.sunshine.servlet.ShowDeleteProjectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteProjectServlet</servlet-name>
+    <servlet-class>com.sunshine.servlet.DeleteProjectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowModifyProjectServlet</servlet-name>
+    <servlet-class>com.sunshine.servlet.ShowModifyProjectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModifyProjectServlet</servlet-name>
+    <servlet-class>com.sunshine.servlet.ModifyProjectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModifyProjectInfoServlet</servlet-name>
+    <servlet-class>com.sunshine.servlet.ModifyProjectInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UploadServlet</servlet-name>
+    <servlet-class>com.sunshine.servlet.UploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckCompanyInfoServlet</servlet-name>
+    <servlet-class>com.sunshine.servlet.CheckCompanyInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckProjectInfoServlet</servlet-name>
+    <servlet-class>com.sunshine.servlet.CheckProjectInfoServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>IndexServlet</servlet-name>
+    <url-pattern>/IndexServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckUserServlet</servlet-name>
+    <url-pattern>/CheckUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteUserServlet</servlet-name>
+    <url-pattern>/DeleteUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowDeleteUserServlet</servlet-name>
+    <url-pattern>/ShowDeleteUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddUserServlet</servlet-name>
+    <url-pattern>/AddUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowModifyUserServlet</servlet-name>
+    <url-pattern>/ShowModifyUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyUserServlet</servlet-name>
+    <url-pattern>/ModifyUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyUserInfoServlet</servlet-name>
+    <url-pattern>/ModifyUserInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCompanyServlet</servlet-name>
+    <url-pattern>/AddCompanyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckCompanyServlet</servlet-name>
+    <url-pattern>/CheckCompanyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowDeleteCompanyServlet</servlet-name>
+    <url-pattern>/ShowDeleteCompanyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteCompanyServlet</servlet-name>
+    <url-pattern>/DeleteCompanyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowModifyCompanyServlet</servlet-name>
+    <url-pattern>/ShowModifyCompanyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyCompanyServlet</servlet-name>
+    <url-pattern>/ModifyCompanyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyCompanyInfoServlet</servlet-name>
+    <url-pattern>/ModifyCompanyInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddProjectServlet</servlet-name>
+    <url-pattern>/AddProjectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckProjectServlet</servlet-name>
+    <url-pattern>/CheckProjectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowDeleteProjectServlet</servlet-name>
+    <url-pattern>/ShowDeleteProjectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteProjectServlet</servlet-name>
+    <url-pattern>/DeleteProjectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowModifyProjectServlet</servlet-name>
+    <url-pattern>/ShowModifyProjectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyProjectServlet</servlet-name>
+    <url-pattern>/ModifyProjectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyProjectInfoServlet</servlet-name>
+    <url-pattern>/ModifyProjectInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadServlet</servlet-name>
+    <url-pattern>/UploadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckCompanyInfoServlet</servlet-name>
+    <url-pattern>/CheckCompanyInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckProjectInfoServlet</servlet-name>
+    <url-pattern>/CheckProjectInfoServlet</url-pattern>
+  </servlet-mapping>
+
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
