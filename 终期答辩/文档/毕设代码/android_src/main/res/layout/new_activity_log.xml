@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent">
+
+	<SurfaceView
+		android:id="@+id/surfaceview"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"/>
+
+	<Button
+		android:id="@+id/forget_new"
+		android:text="忘记密码?"
+		android:textColor="@color/white"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+		android:background="@color/transparent"
+		android:layout_marginBottom="50dp"/>
+
+	<Button
+		android:id="@+id/reg_new"
+		android:text="非狮子会成员注册"
+		android:textColor="@color/white"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="50dp"
+		android:layout_centerHorizontal="true"
+		android:background="#425c99"
+		android:layout_above="@id/forget_new"
+		android:layout_marginBottom="30dp"
+		/>
+
+	<Button
+		android:id="@+id/log_2"
+		android:text="非狮子会成员登录"
+		android:textColor="@color/white"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="50dp"
+		android:layout_centerHorizontal="true"
+		android:background="#425c99"
+		android:layout_above="@id/reg_new"
+		android:layout_marginBottom="30dp"
+		/>
+
+	<Button
+		android:id="@+id/log_1"
+		android:text="狮子会成员登录"
+		android:textColor="@color/white"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="50dp"
+		android:layout_centerHorizontal="true"
+		android:background="#425c99"
+		android:layout_above="@id/log_2"
+		android:layout_marginBottom="30dp"
+		/>
+
+
+
+
+
+
+
+</RelativeLayout>
